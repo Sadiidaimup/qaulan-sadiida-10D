@@ -268,12 +268,7 @@ nav a:active {
 
 /* TESTIMONI BOX - Glassmorphism */
 .testimoni-box {
-  background: linear-gradient(
-    135deg,
-    #9c7951,
-    rgba(161, 136, 127, 0.85)
-  );
-  backdrop-filter: blur(12px);
+  background-color:#4e342e;
   color: #fdfcfb; /* PUTIH HANGAT, ENAK DIBACA */
   padding: 26px 30px;
   margin: 24px auto;
@@ -427,4 +422,5 @@ footer {
 .event-card button:hover {
     background-color: #4b2e2e;
 }
+
 
