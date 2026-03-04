@@ -285,3 +285,146 @@ nav a:active {
   max-width: 900px;
 }
 
+.kontak-container {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.kontak-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #6b3e26;
+}
+
+.kontak-box {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.alamat, .form-kontak {
+    flex: 1;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.alamat h3,
+.form-kontak h3 {
+    margin-bottom: 15px;
+    color: #6b3e26;
+}
+
+/* FORM */
+form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d6c2b5;
+    border-radius: 6px;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #6b3e26;
+}
+
+/* BUTTON */
+form button {
+    margin-top: 15px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    background-color: #6b3e26;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4b2e2e; /* coklat lebih gelap */
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #6b3e26;
+    color: white;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .kontak-box {
+        flex-direction: column;
+    }
+}
+
+.event-container {
+    padding: 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.event-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #6b3e26;
+}
+
+.event-list {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.event-card {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+}
+
+.event-card h3 {
+    color: #6b3e26;
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    margin-bottom: 8px;
+}
+
+.event-card button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #6b3e26;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.event-card button:hover {
+    background-color: #4b2e2e;
+}
+
